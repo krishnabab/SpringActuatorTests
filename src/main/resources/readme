@@ -1,0 +1,11 @@
+http://localhost.att.com:9090/actuator
+http://localhost.att.com:9090/actuator/metrics
+
+http://localhost.att.com:9090/actuator/health
+
+http://localhost.att.com:9090/actuator/env
+
+http://localhost.att.com:9090/actuator/metrics/jvm.memory.used
+
+http://localhost.att.com:9090/actuator/info
+The info endpoint displays arbitrary information about your application. It obtains build information from META-INF/build-info.properties file, Git information from git.properties file. It also displays any information available in environment properties under the key info
